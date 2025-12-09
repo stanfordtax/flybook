@@ -4,7 +4,7 @@ defmodule Flybook.MixProject do
   def project do
     [
       app: :flybook,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -21,7 +21,7 @@ defmodule Flybook.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:kino, "~> 0.16.0"},
+      {:kino, "~> 0.18.0"},
       {:req, "~> 0.5.10"}
     ]
   end
